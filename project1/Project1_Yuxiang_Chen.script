@@ -1,0 +1,414 @@
+Script started on Fri 21 Jan 2022 10:09:58 PM CST
+]777;notify;Command completed;login chan]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[?1034h[root@localhost project1]# yum install gcc
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: repos.hou.layerhost.com
+ * updates: nc-centos-mirror.iwebfusion.net
+base                                                            | 3.6 kB  00:00:00     
+extras                                                          | 2.9 kB  00:00:00     
+updates                                                         | 2.9 kB  00:00:00     
+updates/7/x86_64/primary_db  12% [==                 ]  0.0 B/s | 1.7 MB  --:--:-- ETA updates/7/x86_64/primary_db  20% [===-               ] 1.3 MB/s | 2.7 MB  00:00:08 ETA updates/7/x86_64/primary_db  28% [=====              ] 1.4 MB/s | 3.8 MB  00:00:06 ETA updates/7/x86_64/primary_db  35% [======-            ] 1.5 MB/s | 4.7 MB  00:00:05 ETA updates/7/x86_64/primary_db  40% [=======-           ] 1.6 MB/s | 5.4 MB  00:00:05 ETA updates/7/x86_64/primary_db  46% [========-          ] 1.6 MB/s | 6.2 MB  00:00:04 ETA updates/7/x86_64/primary_db  49% [=========          ] 1.6 MB/s | 6.7 MB  00:00:04 ETA updates/7/x86_64/primary_db  53% [==========         ] 1.6 MB/s | 7.1 MB  00:00:03 ETA updates/7/x86_64/primary_db  57% [==========-        ] 1.6 MB/s | 7.6 MB  00:00:03 ETA updates/7/x86_64/primary_db  63% [============       ] 1.7 MB/s | 8.5 MB  00:00:02 ETA updates/7/x86_64/primary_db  72% [=============-     ] 1.8 MB/s | 9.6 MB  00:00:02 ETA updates/7/x86_64/primary_db  82% [===============-   ] 2.0 MB/s |  11 MB  00:00:01 ETA updates/7/x86_64/primary_db  93% [=================- ] 2.1 MB/s |  12 MB  00:00:00 ETA updates/7/x86_64/primary_db                                     |  13 MB  00:00:04     
+Package gcc-4.8.5-44.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum install gcc]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum install gcc[C[C[C[C[C[C[C[C[C[C[1@-[1@y[1@ 
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: mirror.atl.genesisadaptive.com
+ * updates: nc-centos-mirror.iwebfusion.net
+Package gcc-4.8.5-44.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install gcc]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install gcc[C[C[C[C[C-c++
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: mirror.mobap.edu
+ * updates: nc-centos-mirror.iwebfusion.net
+Package gcc-c++-4.8.5-44.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install gcc-c++]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install gcc-c++[K[K[K[K[K[K[Kvim=[K-enhanced
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: repos.eggycrew.com
+ * updates: nc-centos-mirror.iwebfusion.net
+Package 2:vim-enhanced-7.4.629-8.el7_9.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install vim-enhanced]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install vim-enhanced[K[K[K[K[K[K[K[K[K[K[K[K[K emacs[C[C[C[C[C[C
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: mirror.atl.genesisadaptive.com
+ * updates: nc-centos-mirror.iwebfusion.net
+Package 1:emacs-24.3-23.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install emacs]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install emacs[K[K[K[K[Kgdb
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.cs.pitt.edu
+ * extras: mirror.atl.genesisadaptive.com
+ * updates: centos.mirror.constant.com
+Package gdb-7.6.1-120.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install gdb]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install gdb[K[K[Kethtool
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: centos.mirror.constant.com
+ * updates: nc-centos-mirror.iwebfusion.net
+Package 2:ethtool-4.8-10.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install ethtool]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install ethtool[K[K[K[K[K[K[Khdparm
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: mirror.atl.genesisadaptive.com
+ * updates: centos.mirror.constant.com
+Package hdparm-9.43-5.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install hdparm]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install hdparm[K[K[K[K[K[Kpciutils
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.teklinks.com
+ * extras: mirror.atl.genesisadaptive.com
+ * updates: mirror.ash.fastserv.com
+Package pciutils-3.5.1-3.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install pciutils]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# yum -y install pciutils[K[K[K[K[K[K[K[K[K[Kl file
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.wcupa.edu
+ * extras: centos.mirror.constant.com
+ * updates: nc-centos-mirror.iwebfusion.net
+Package file-5.11-37.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install file]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# more /proc/cpuinfor[K[K[K[Knfo > cupinfo.txt
+]777;notify;Command completed;more /proc/cpuinfo > cupinfo.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# more /proc/cpuinfo > cupinfo.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmenm[K[Kminfo >m[K menm[K[Kminfo.txt
+]777;notify;Command completed;more /proc/meminfo > meminfo.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# /sbin/lspci > lspci.txt
+]777;notify;Command completed;/sbin/lspci > lspci.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# /sbin/lspci > lspci.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khdparm -i /dev/sda > sa[Kda.txt
+]777;notify;Command completed;/sbin/hdparm -i /dev/sda > sda.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# /sbin/hdparm -i /dev/sda > sda.txt[1P[1@h[1P[1@I[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pda.txtgda.txt[C[1Pda.txthda.txt[C[C[C[C[C[C
+/dev/hda: No such file or directory
+]777;notify;Command completed;/sbin/hdparm -I /dev/hda > hda.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# /sbin/ethtool etho[K0 > eth0.txt
+]777;notify;Command completed;/sbin/ethtool eth0 > eth0.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# /sbin/ethtool eth0 > eth0.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kifconfig eth0 > ifconfig_eth0.txt
+]777;notify;Command completed;/sbin/ifconfig eth0 > ifconfig_eth0.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# more /proc/interrupts > interrupu[K[K[Kupts.txt
+]777;notify;Command completed;more /proc/interrupts > interrupts.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# mv th[K[Keh0[K[Kth0.txt eht[K[Kthtool_eth0.txt
+]777;notify;Command completed;mv eth0.txt ethtool_eth0.txt]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# ls
+cupinfo.txt       ifconfig_eth0.txt  meminfo.txt                   simple.c
+ethtool_eth0.txt  interrupts.txt     Project1_Yuxiang_Chen.script
+hda.txt           lspci.txt          sda.txt
+]777;notify;Command completed;ls]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# vi simple.c 
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1HE325: ATTENTION
+Found a swap file by the name ".simple.c.swp"
+[10Cowned by: chan   dated: Mon Jan 17 23:53:29 2022
+[9Cfile name: ~chan/Desktop/project1/simple.c
+[10Cmodified: YES
+[9Cuser name: chan   host name: localhost.localdomain
+[8Cprocess ID: 13434 (still running)
+While opening file "simple.c"
+[13Cdated: Tue Jan 18 05:30:10 2022
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r simple.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".simple.c.swp"
+    to avoid this message.
+
+[24;1H"simple.c" 12L, 210C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H#include <math.h>
+
+int main(){
+  double array[10] = {1.0, 2.0, 3.0, 4.0, 5.0, 10.2, 11.5, 12.6, 13.9, 14.7};
+  double ave = 0;
+  int i;
+  for (i = 0; i < 10; i++){
+    ave += sqrt(array[i]);
+  }
+  return 0;
+}
+
+[94m~                                                                                      [14;1H~                                                                                      [15;1H~                                                                                      [16;1H~                                                                                      [17;1H~                                                                                      [18;1H~                                                                                      [19;1H~                                                                                      [20;1H~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [m[25;1H[K[1;1H[?12l[?25h
+
+
+[3;1H[2;1H[?25l[25;1H[1m-- INSERT --[2;1H[?12l[?25h[?25l[3;24r[m[3;1H[L[1;25r[3;1H[?12l[?25h[?25l[4;24r[4;1H[L[1;25r[4;1H[?12l[?25h[3;1H[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25l_[?12l[?25h[?25l[3;11H[K[3;11H[?12l[?25h[?25lS[?12l[?25h[?25lq[?12l[?25h[?25le[?12l[?25h[?25l[3;13H[K[3;13H[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h)[?25l[3;16H[K[3;16H[?12l[?25h[?25l[3;15H[K[3;15H[?12l[?25h[?25l[3;14H[K[3;14H[?12l[?25h[?25l[3;13H[K[3;13H[?12l[?25h[?25l[3;12H[K[3;12H[?12l[?25h[?25l[3;11H[K[3;11H[?12l[?25h[?25l[3;10H[K[3;10H[?12l[?25h[?25l[3;9H[K[3;9H[?12l[?25h[?25l[3;8H[K[3;8H[?12l[?25h[?25l[?12l[?25h[?25l[3;6H[K[3;6H[?12l[?25h[?25l[3;5H[K[3;5H[?12l[?25h[?25l[3;4H[K[3;4H[?12l[?25h[?25l[3;3H[K[3;3H[?12l[?25h[?25l[3;2H[K[3;2H[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l[2;24r[24;1H
+[1;25r[24;1H[94m~                                                                                      [2;1H[?12l[?25h[?25l[1;24r[m[24;1H
+[1;25r[1;1H#include <math.h>[24;1H[94m~                                                                                      [1;18H[?12l[?25h
+[?25l[m/[?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25l[2;13H[K[2;13H[?12l[?25h[?25l[2;12H[K[2;12H[?12l[?25h[?25l[2;11H[K[2;11H[?12l[?25h[?25l[?12l[?25h[?25l[2;9H[K[2;9H[?12l[?25h[?25l[2;8H[K[2;8H[?12l[?25h[?25l[2;7H[K[2;7H[?12l[?25h[?25l[2;6H[K[2;6H[?12l[?25h[?25l[2;5H[K[2;5H[?12l[?25h[?25l[2;4H[K[2;4H[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lc[?12l[?25h[?25lu[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h calculates[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l[2;25H[K[2;25H[?12l[?25h[?25l[2;24H[K[2;24H[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l[2;31H[K[2;31H[?12l[?25h[?25l[2;30H[K[2;30H[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25hof[?25l  an array of 10 numbers[2;30H[?12l[?25h[?25lt an array of 10 numbers[2;31H[?12l[?25h[?25lh an array of 10 numbers[2;32H[?12l[?25h[?25le an array of 10 numbers[2;33H[?12l[?25h[?25l  an array of 10 numbers[2;34H[?12l[?25h[?25ls an array of 10 numbers[2;35H[?12l[?25h[?25lu an array of 10 numbers[2;36H[?12l[?25h[?25lm an array of 10 numbers[2;37H[?12l[?25h[?25l  an array of 10 numbers[2;38H[?12l[?25h[?25lo an array of 10 numbers[2;39H[?12l[?25h[?25lf an array of 10 numbers[2;40H[?12l[?25h an array of 10 numbers[?25l"[?12l[?25h[?25l[2;63H[K[2;63H[?12l[?25h[?25l [?12l[?25h[?25l8[?12l[?25h[?25l?[?12l[?25h[?25l[2;65H[K[2;65H[?12l[?25h[?25l[2;64H[K[2;64H[?12l[?25h[?25l*[?12l[?25h[?25l.[?12l[?25h[?25l[2;65H[K[2;65H[?12l[?25h[?25l/[?12l[?25h[25;1H[K[2;65H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25he[?25l[25;2H[K[25;2H[?12l[?25hwq[?25l"simple.c" 12L, 275C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi simple.c ]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# gcc -v
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+]777;notify;Command completed;gcc -v]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# gcc -g -lm -o simple.c [K[K[K[Ke simple.c 
+]777;notify;Command completed;gcc -g -lm -o simple simple.c ]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# man ldd
+[?1049h[?1h=LDD(1)                        Linux Programmer's Manual                       LDD(1)[m
+[m
+[1mNAME[0m[m
+       ldd - print shared library dependencies[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mldd[0m [OPTION]... FILE...[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mldd[0m  prints  the  shared libraries required by each program or shared library[m
+       specified on the command line.[m
+[m
+   [1mSecurity[0m[m
+       In the usual case, [1mldd[0m invokes the standard  dynamic  linker  (see  [1mld.so[0m(8))[m
+       with  the [1mLD_TRACE_LOADED_OBJECTS[0m environment variable set to 1, which causes[m
+       the linker to display the library dependencies.  Be aware, however,  that  in[m
+       some circumstances, some versions of [1mldd[0m may attempt to obtain the dependency[m
+       information by directly executing the program.  Thus, you should [4mnever[24m employ[m
+       [1mldd[0m  on  an  untrusted  executable, since this may result in the execution of[m
+       arbitrary code.  A safer alternative when dealing with untrusted  executables[m
+       is:[m
+[m
+           $ objdump -p /path/to/program | grep NEEDED[m
+[m
+[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page ldd(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page ldd(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print the version number of [1mldd[0m.[m
+[7m Manual page ldd(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m [1m--verbose[0m[m
+[7m Manual page ldd(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print  all  information,  including,  for  example,  symbol versioning[m
+[7m Manual page ldd(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              information.[m
+[7m Manual page ldd(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m [1m--unused[0m[m
+[7m Manual page ldd(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print unused direct dependencies.  (Since glibc 2.3.4.)[m
+[7m Manual page ldd(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m [1m--data-relocs[0m[m
+[7m Manual page ldd(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Perform relocations and report any missing objects (ELF only).[m
+[7m Manual page ldd(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m [1m--function-relocs[0m[m
+[7m Manual page ldd(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Perform relocations for both data objects and  functions,  and  report[m
+[7m Manual page ldd(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              any missing objects or functions (ELF only).[m
+[7m Manual page ldd(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m Usage information.[m
+[7m Manual page ldd(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mNOTES[0m[m
+[7m Manual page ldd(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The standard version of [1mldd[0m comes with glibc2.  Libc5 came with an older ver‐[m
+[7m Manual page ldd(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       sion, still present on some systems.  The long options are not  supported  by[m
+[7m Manual page ldd(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the libc5 version.  On the other hand, the glibc2 version does not support [1m-V[0m[m
+[7m Manual page ldd(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and only has the equivalent [1m--version[0m.[m
+[7m Manual page ldd(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The libc5 version of this program will use the name of a library given on the[m
+[7m Manual page ldd(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       command  line  as-is  when  it  contains a '/'; otherwise it searches for the[m
+[7m Manual page ldd(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       library in the standard locations.  To run it on a shared library in the cur‐[m
+[7m Manual page ldd(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       rent directory, prefix the name with "./".[m
+[7m Manual page ldd(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m[m
+[7m Manual page ldd(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mldd[0m does not work on a.out shared libraries.[m
+[7m Manual page ldd(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ldd(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mldd[0m  does  not  work  with some extremely old a.out programs which were built[m
+[7m Manual page ldd(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Print unused direct dependencies.  (Since glibc 2.3.4.)[m
+[25;1H[K[7m Manual page ldd(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-u[0m [1m--unused[0m[m
+[25;1H[K[7m Manual page ldd(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              information.[m
+[25;1H[K[7m Manual page ldd(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Print  all  information,  including,  for  example,  symbol versioning[m
+[25;1H[K[7m Manual page ldd(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-v[0m [1m--verbose[0m[m
+[25;1H[K[7m Manual page ldd(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Print the version number of [1mldd[0m.[m
+[25;1H[K[7m Manual page ldd(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[25;1H[K[7m Manual page ldd(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[25;1H[K[7m Manual page ldd(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           $ objdump -p /path/to/program | grep NEEDED[m
+[25;1H[K[7m Manual page ldd(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       is:[m
+[25;1H[K[7m Manual page ldd(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       arbitrary code.  A safer alternative when dealing with untrusted  executables[m
+[25;1H[K[7m Manual page ldd(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mldd[0m  on  an  untrusted  executable, since this may result in the execution of[m
+[25;1H[K[7m Manual page ldd(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       information by directly executing the program.  Thus, you should [4mnever[24m employ[m
+[25;1H[K[7m Manual page ldd(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       some circumstances, some versions of [1mldd[0m may attempt to obtain the dependency[m
+[25;1H[K[7m Manual page ldd(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the linker to display the library dependencies.  Be aware, however,  that  in[m
+[25;1H[K[7m Manual page ldd(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       with  the [1mLD_TRACE_LOADED_OBJECTS[0m environment variable set to 1, which causes[m
+[25;1H[K[7m Manual page ldd(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       In the usual case, [1mldd[0m invokes the standard  dynamic  linker  (see  [1mld.so[0m(8))[m
+[25;1H[K[7m Manual page ldd(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM   [1mSecurity[0m[m
+[25;1H[K[7m Manual page ldd(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       specified on the command line.[m
+[25;1H[K[7m Manual page ldd(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mldd[0m  prints  the  shared libraries required by each program or shared library[m
+[25;1H[K[7m Manual page ldd(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[25;1H[K[7m Manual page ldd(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mldd[0m [OPTION]... FILE...[m
+[25;1H[K[7m Manual page ldd(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[25;1H[K[7m Manual page ldd(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ldd - print shared library dependencies[m
+[25;1H[K[7m Manual page ldd(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[25;1H[K[7m Manual page ldd(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[25;1H[K[7m Manual page ldd(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMLDD(1)                        Linux Programmer's Manual                       LDD(1)[m
+[25;1H[K[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]777;notify;Command completed;man ldd]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# ldd simple
+	linux-vdso.so.1 =>  (0x00007ffe171f6000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007f17eeba5000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007f17ee7d7000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f17eeea7000)
+]777;notify;Command completed;ldd simple]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# vi .gdbinit 
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H".gdbinit" 6L, 76C[1;1Hset auto-load safe-path /
+
+file simple
+break main
+break sqrt
+info registers
+[94m~                                                                                      [8;1H~                                                                                      [9;1H~                                                                                      [10;1H~                                                                                      [11;1H~                                                                                      [12;1H~                                                                                      [13;1H~                                                                                      [14;1H~                                                                                      [15;1H~                                                                                      [16;1H~                                                                                      [17;1H~                                                                                      [18;1H~                                                                                      [19;1H~                                                                                      [20;1H~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h
+
+[2;1H[1;25H
+[3;11H[4;10H[5;10H[6;14H[?25l[m[25;1H[K[25;1H:[?12l[?25hwq[?25l".gdbinit" 6L, 76C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi .gdbinit ]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# gdv[Kb
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+warning: File "/home/chan/Desktop/project1/.gdbinit" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load:/usr/bin/mono-gdb.py".
+To enable execution of this file add
+	add-auto-load-safe-path /home/chan/Desktop/project1/.gdbinit
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+(gdb) r
+Starting program:  
+No executable file specified.
+Use the "file" or "exec-file" command.
+(gdb) q
+]777;notify;Command completed;gdb]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# cd /rt[Koot/.dbus/[K[K[K[Kd[K[Kgdb[K[K[K[K[K[K[K[K[K[K[K[K[Kvi /root [K/.gdbinit
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"~/.gdbinit" [New File][2;1H[94m~                                                                                      [3;1H~                                                                                      [4;1H~                                                                                      [5;1H~                                                                                      [6;1H~                                                                                      [7;1H~                                                                                      [8;1H~                                                                                      [9;1H~                                                                                      [10;1H~                                                                                      [11;1H~                                                                                      [12;1H~                                                                                      [13;1H~                                                                                      [14;1H~                                                                                      [15;1H~                                                                                      [16;1H~                                                                                      [17;1H~                                                                                      [18;1H~                                                                                      [19;1H~                                                                                      [20;1H~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h[?25l[m[25;1H[1m-- INSERT --[m[25;14H[K[1;1Hdd-auto-load-safe-path /home/chan/Desktop/project1/.gdbinit
+line to your configuration file "/root/.gdbinit".[2;50H[K[3;1HTo completely disable this security protection add[3;51H[K[4;1H        set auto-load safe-path /[4;34H[K[5;1H[K[5;1H[?12l[?25h[4;1H[8Cs[?25lset auto-load safe-path /[4;26H[K[4;1H[?12l[?25h[?25l[3;24r[24;1H
+[1;25r[3;1HTo completely disable this security protection addset auto-load safe-path /[24;1H[94m~                                                                                      [3;51H[?12l[?25h[?25l[mset auto-load safe-path /[3;75H[K[3;50H[?12l[?25h[?25lset auto-load safe-path /[3;74H[K[3;49H[?12l[?25h[?25lset auto-load safe-path /[3;73H[K[3;48H[?12l[?25h[?25lset auto-load safe-path /[3;72H[K[3;47H[?12l[?25h[?25lset auto-load safe-path /[3;71H[K[3;46H[?12l[?25h[?25lset auto-load safe-path /[3;70H[K[3;45H[?12l[?25h[?25lset auto-load safe-path /[3;69H[K[3;44H[?12l[?25h[?25lset auto-load safe-path /[3;68H[K[3;43H[?12l[?25h[?25lset auto-load safe-path /[3;67H[K[3;42H[?12l[?25h[?25lset auto-load safe-path /[3;66H[K[3;41H[?12l[?25h[?25lset auto-load safe-path /[3;65H[K[3;40H[?12l[?25h[?25lset auto-load safe-path /[3;64H[K[3;39H[?12l[?25h[?25lset auto-load safe-path /[3;63H[K[3;38H[?12l[?25h[?25lset auto-load safe-path /[3;62H[K[3;37H[?12l[?25h[?25lset auto-load safe-path /[3;61H[K[3;36H[?12l[?25h[?25lset auto-load safe-path /[3;60H[K[3;35H[?12l[?25h[?25lset auto-load safe-path /[3;59H[K[3;34H[?12l[?25h[?25lset auto-load safe-path /[3;58H[K[3;33H[?12l[?25h[?25lset auto-load safe-path /[3;57H[K[3;32H[?12l[?25h[?25lset auto-load safe-path /[3;56H[K[3;31H[?12l[?25h[?25lset auto-load safe-path /[3;55H[K[3;30H[?12l[?25h[?25lset auto-load safe-path /[3;54H[K[3;29H[?12l[?25h[?25let auto-load safe-path /[3;53H[K[3;28H[?12l[?25h[?25lset auto-load safe-path /[3;52H[K[3;27H[?12l[?25h[?25let auto-load safe-path /[3;51H[K[3;26H[?12l[?25h[?25lset auto-load safe-path /[3;50H[K[3;25H[?12l[?25h[?25lset auto-load safe-path /[3;49H[K[3;24H[?12l[?25h[?25lset auto-load safe-path /[3;48H[K[3;23H[?12l[?25h[?25lset auto-load safe-path /[3;47H[K[3;22H[?12l[?25h[?25lset auto-load safe-path /[3;46H[K[3;21H[?12l[?25h[?25lset auto-load safe-path /[3;45H[K[3;20H[?12l[?25h[?25lset auto-load safe-path /[3;44H[K[3;19H[?12l[?25h[?25lset auto-load safe-path /[3;43H[K[3;18H[?12l[?25h[?25let auto-load safe-path /[3;42H[K[3;17H[?12l[?25h[?25lset auto-load safe-path /[3;41H[K[3;16H[?12l[?25h[?25lset auto-load safe-path /[3;40H[K[3;15H[?12l[?25h[?25lset auto-load safe-path /[3;39H[K[3;14H[?12l[?25h[?25lset auto-load safe-path /[3;38H[K[3;13H[?12l[?25h[?25lset auto-load safe-path /[3;37H[K[3;12H[?12l[?25h[?25lset auto-load safe-path /[3;36H[K[3;11H[?12l[?25h[?25lset auto-load safe-path /[3;35H[K[3;10H[?12l[?25h[?25lset auto-load safe-path /[3;34H[K[3;9H[?12l[?25h[?25lset auto-load safe-path /[3;33H[K[3;8H[?12l[?25h[?25lset auto-load safe-path /[3;32H[K[3;7H[?12l[?25h[?25lset auto-load safe-path /[3;31H[K[3;6H[?12l[?25h[?25lset auto-load safe-path /[3;30H[K[3;5H[?12l[?25h[?25lset auto-load safe-path /[3;29H[K[3;4H[?12l[?25h[?25lset auto-load safe-path /[3;28H[K[3;3H[?12l[?25h[?25lset auto-load safe-path /[3;27H[K[3;2H[?12l[?25h[?25lset auto-load safe-path /[3;26H[K[3;1H[?12l[?25h[?25l[2;24r[24;1H
+[1;25r[2;1Hline to your configuration file "/root/.gdbinit".set auto-load safe-path /[24;1H[94m~                                                                                      [2;50H[?12l[?25h[?25l[mset auto-load safe-path /[2;74H[K[2;49H[?12l[?25h[?25lset auto-load safe-path /[2;73H[K[2;48H[?12l[?25h[?25lset auto-load safe-path /[2;72H[K[2;47H[?12l[?25h[?25lset auto-load safe-path /[2;71H[K[2;46H[?12l[?25h[?25lset auto-load safe-path /[2;70H[K[2;45H[?12l[?25h[?25lset auto-load safe-path /[2;69H[K[2;44H[?12l[?25h[?25lset auto-load safe-path /[2;68H[K[2;43H[?12l[?25h[?25lset auto-load safe-path /[2;67H[K[2;42H[?12l[?25h[?25lset auto-load safe-path /[2;66H[K[2;41H[?12l[?25h[?25lset auto-load safe-path /[2;65H[K[2;40H[?12l[?25h[?25lset auto-load safe-path /[2;64H[K[2;39H[?12l[?25h[?25lset auto-load safe-path /[2;63H[K[2;38H[?12l[?25h[?25l[2;28Hset auto-load safe-path /[2;53H[K[2;28H[?12l[?25h[?25lset auto-load safe-path /[2;52H[K[2;27H[?12l[?25h[?25lset auto-load safe-path /[2;51H[K[2;26H[?12l[?25h[?25lset auto-load safe-path /[2;50H[K[2;25H[?12l[?25h[?25lset auto-load safe-path /[2;49H[K[2;24H[?12l[?25h[?25lset auto-load safe-path /[2;48H[K[2;23H[?12l[?25h[?25lset auto-load safe-path /[2;47H[K[2;22H[?12l[?25h[?25lset auto-load safe-path /[2;46H[K[2;21H[?12l[?25h[?25lset auto-load safe-path /[2;45H[K[2;20H[?12l[?25h[?25lset auto-load safe-path /[2;44H[K[2;19H[?12l[?25h[?25lset auto-load safe-path /[2;43H[K[2;18H[?12l[?25h[?25lset auto-load safe-path /[2;42H[K[2;17H[?12l[?25h[?25lset auto-load safe-path /[2;41H[K[2;16H[?12l[?25h[?25lset auto-load safe-path /[2;40H[K[2;15H[?12l[?25h[?25lset auto-load safe-path /[2;39H[K[2;14H[?12l[?25h[?25lset auto-load safe-path /[2;38H[K[2;13H[?12l[?25h[?25lset auto-load safe-path /[2;37H[K[2;12H[?12l[?25h[?25lset auto-load safe-path /[2;36H[K[2;11H[?12l[?25h[?25lset auto-load safe-path /[2;35H[K[2;10H[?12l[?25h[?25lset auto-load safe-path /[2;34H[K[2;9H[?12l[?25h[?25lset auto-load safe-path /[2;33H[K[2;8H[?12l[?25h[?25lset auto-load safe-path /[2;32H[K[2;7H[?12l[?25h[?25lset auto-load safe-path /[2;31H[K[2;6H[?12l[?25h[?25lset auto-load safe-path /[2;30H[K[2;5H[?12l[?25h[?25lset auto-load safe-path /[2;29H[K[2;4H[?12l[?25h[?25lset auto-load safe-path /[2;28H[K[2;3H[?12l[?25h[?25lset auto-load safe-path /[2;27H[K[2;2H[?12l[?25h[?25lset auto-load safe-path /[2;26H[K[2;1H[?12l[?25h
+[25;1H[K[3;1H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25hwq[?25l"~/.gdbinit" [New] 3L, 87C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi /root/.gdbinit]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# cd ho[K[K/home/chan/pro[K[K[K[K[K[K[K[K[K[K[K[K[K[K/
+bin/   dev/   home/  lib64/ mnt/   proc/  run/   srv/   tmp/   var/   
+boot/  etc/   lib/   media/ opt/   root/  sbin/  sys/   usr/   
+[root@localhost project1]# cd /home/chan/p[Kdes[K[K[KDesktop/project1/
+]777;notify;Command completed;cd /home/chan/Desktop/project1/]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# gdc[Kv[Kb
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+/root/.gdbinit:1: Error in sourced command file:
+Undefined command: "dd-auto-load-safe-path".  Try "help".
+warning: File "/home/chan/Desktop/project1/.gdbinit" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load:/usr/bin/mono-gdb.py".
+To enable execution of this file add
+	add-auto-load-safe-path /home/chan/Desktop/project1/.gdbinit
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+(gdb) q
+]777;notify;Command completed;gdb]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# vi r[K/root//.[K[K.gdbinit 
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"~/.gdbinit" 3L, 87C[1;1Hdd-auto-load-safe-path /home/chan/Desktop/project1/.gdbinit
+set auto-load safe-path /
+
+[94m~                                                                                      [5;1H~                                                                                      [6;1H~                                                                                      [7;1H~                                                                                      [8;1H~                                                                                      [9;1H~                                                                                      [10;1H~                                                                                      [11;1H~                                                                                      [12;1H~                                                                                      [13;1H~                                                                                      [14;1H~                                                                                      [15;1H~                                                                                      [16;1H~                                                                                      [17;1H~                                                                                      [18;1H~                                                                                      [19;1H~                                                                                      [20;1H~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h[md[?25l[25;1H[1m-- INSERT --[m[25;14H[K[1;2H[?12l[?25h[?25lidd-auto-load-safe-path /home/chan/Desktop/project1/.gdbiniti[?12l[?25hi[?25ldd-auto-load-safe-path /home/chan/Desktop/project1/.gdbinit[1;60H[K[1;1H[?12l[?25h[?25ladd-auto-load-safe-path /home/chan/Desktop/project1/.gdbinita[?12l[?25h[25;1H[K[1;1H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25hwq[?25l"~/.gdbinit" 3L, 88C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi /root/.gdbinit ]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# vi /root/.gdbinit gdb[Kcd /home/chan/Desktop/project1/
+]777;notify;Command completed;cd /home/chan/Desktop/project1/]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# cd /home/chan/Desktop/project1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pvi /root/.gdbinit gdb[K
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Breakpoint 1 at 0x400565: file simple.c, line 4.
+Breakpoint 2 at 0x400460
+.gdbinit:6: Error in sourced command file:
+The program has no registers now.
+(gdb) r
+Starting program: /home/chan/Desktop/project1/simple 
+
+Breakpoint 1, main () at simple.c:4
+4	  double array[10] = {1.0, 2.0, 3.0, 4.0, 5.0, 10.2, 11.5, 12.6, 13.9, 14.7};
+Missing separate debuginfos, use: debuginfo-install glibc-2.17-325.el7_9.x86_64
+(gdb) n
+5	  double ave = 0;
+(gdb) s
+7	  for (i = 0; i < 10; i++){
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) n
+Single stepping until exit from function sqrt,
+which has no line number information.
+main () at simple.c:7
+7	  for (i = 0; i < 10; i++){
+(gdb) n
+8	    ave += sqrt(array[i]);
+(gdb) n
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) n
+Single stepping until exit from function sqrt,
+which has no line number information.
+main () at simple.c:7
+7	  for (i = 0; i < 10; i++){
+(gdb) n
+8	    ave += sqrt(array[i]);
+(gdb) n
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) n
+Single stepping until exit from function sqrt,
+which has no line number information.
+main () at simple.c:7
+7	  for (i = 0; i < 10; i++){
+(gdb) n
+8	    ave += sqrt(array[i]);
+(gdb) s
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+[Inferior 1 (process 19399) exited normally]
+(gdb) c[Kq
+]777;notify;Command completed;gdb]0;chan@localhost:/home/chan/Desktop/project1]7;file://localhost.localdomain/home/chan/Desktop/project1[root@localhost project1]# exit
+exit
+
+Script done on Fri 21 Jan 2022 10:26:56 PM CST

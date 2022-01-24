@@ -1,0 +1,1 @@
+Note: There is not file or directory /dev/hda in this CentOS7

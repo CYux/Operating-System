@@ -1,0 +1,532 @@
+Script started on Mon 24 Jan 2022 12:54:51 PM CST
+]777;notify;Command completed;exit]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[?1034h[root@localhost project1]# exit[1Pgdbcd /home/chan/Desktop/project1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pvi /root/.gdbinit gdb[Kcd /home/chan/Desktop/project1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pvi /root/.gdbinitgdb[Kvi .gdbinit [2Pldd simple[3Pman lddgcc -g -lm -o simple simple.c v[Kvi simple.c ls[Kmv eth0.txt ethtool_eth0.txtore /proc/interrupts > interrupts.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/sbin/ifconfig eth0 > ifconfig_eth0.txt[10Pethtool eth0 > eth0.txthdparm -I /dev/hda > hda.txti /dev/sda > sda.txt[11Plspci > lspci.txtmore /proc/meminfo > meminfo.txtcpuinfo > cupinfo.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pyum -y install filepciutils[2Phdparmethtool[4Pgdbemacsvim-enhanced[5Pgcc-c++[K
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.wdc1.us.leaseweb.net
+ * extras: mirror.vacares.com
+ * updates: distro.ibiblio.org
+Package gcc-4.8.5-44.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install gcc]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install gccexit[K[1Pgdbcd /home/chan/Desktop/project1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb[Kexit[1Pgdbcd /home/chan/Desktop/project1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pvi /root/.gdbinit cd /home/chan/Desktop/project1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb[Kexityum -y install gcc[Kyum -y install gcc-C[Kc++
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.wdc1.us.leaseweb.net
+ * extras: mirror.centos.iad1.serverforge.org
+ * updates: nyc.mirrors.clouvider.net
+Package gcc-c++-4.8.5-44.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install gcc-c++]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install gcc-c++[K[K[K[K[K[K[Kvim--e[K[Kenhanced
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.ette.biz
+ * extras: mirror.centos.iad1.serverforge.org
+ * updates: distro.ibiblio.org
+Package 2:vim-enhanced-7.4.629-8.el7_9.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install vim-enhanced]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install vim-enhanced[K[K[K[K[K[K[K[K[K[K[K[Kemacs
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.wdc1.us.leaseweb.net
+ * extras: mirror.nodesdirect.com
+ * updates: mirror.nodespace.net
+Package 1:emacs-24.3-23.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install emacs]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install emacs[K[K[K[K[Kgdb
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.wdc1.us.leaseweb.net
+ * extras: mirror.centos.iad1.serverforge.org
+ * updates: mirror.nodespace.net
+Package gdb-7.6.1-120.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install gdb]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install gdb[K[K[Kethtool
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.wdc1.us.leaseweb.net
+ * extras: mirror.nodesdirect.com
+ * updates: mirror.nodespace.net
+Package 2:ethtool-4.8-10.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install ethtool]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install ethtool[K[K[K[K[K[K[Khdparm
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.wdc1.us.leaseweb.net
+ * extras: mirror.centos.iad1.serverforge.org
+ * updates: packages.oit.ncsu.edu
+Package hdparm-9.43-5.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install hdparm]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install hdparm[K[K[K[K[K[Kpciutils
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.ette.biz
+ * extras: mirror.centos.iad1.serverforge.org
+ * updates: packages.oit.ncsu.edu
+Package pciutils-3.5.1-3.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install pciutils]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# yum -y install pciutils[K[K[K[K[K[K[K[Kfile
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirror.ette.biz
+ * extras: mirror.centos.iad1.serverforge.org
+ * updates: mirror.nodespace.net
+Package file-5.11-37.el7.x86_64 already installed and latest version
+Nothing to do
+]777;notify;Command completed;yum -y install file]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# more /proc/cpuinfo > cup[K[Kpuinfo.txt
+]777;notify;Command completed;more /proc/cpuinfo > cpuinfo.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# more /proc/men[Kminfo > men[Kminfo.txt
+]777;notify;Command completed;more /proc/meminfo > meminfo.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# /sv[Kbin/lspci > lspci.txt
+]777;notify;Command completed;/sbin/lspci > lspci.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# /sbin/ [Khdparm -i .[K/dev/d[Ksda > /[Ksda.txt
+]777;notify;Command completed;/sbin/hdparm -i /dev/sda > sda.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# /sbin/hdparm -i /dev/sda > sda.txt[1P[1@h[1P[1@I
+/dev/hda: No such file or directory
+]777;notify;Command completed;/sbin/hdparm -I /dev/hda > sda.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# echo ""T"h"e"r"e" "i"s" "n"o"t" "h"d"a" "i"n" "C"e"n"T"[1P"O"S"[CtOS"[C[1@D[1@o[1@c[1@u[1@m[1@e[1@n[1@t[1@:[1@ [1P[1P[1P[1P[1P[1P[1P[1P[1@N[1@o[1@t[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@f[1@i[1@l[1@e[C[1@ [1@o[1@r[C[1@ [1@d[1@i[1@r[1@e[1@c[1@t[1@o[1@r[1@y[C[1@ [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@/[1@D[1P[1@de/hda in CentOS" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv/hda in CentOS""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/dev/hda in CentOS"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C7"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C CentOS7"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct CentOS7"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch CentOS7"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci CentOS7"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs CentOS7"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C
+Note: There is not file or directory /dev/hda in this CentOS7
+]777;notify;Command completed;echo "Note: There is not file or directory /dev/hda in this CentOS7"]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# /sbin/eh[Kthtool eth0 > ethtoll[K[Kol_eth0.txt
+]777;notify;Command completed;/sbin/ethtool eth0 > ethtool_eth0.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# /sbin/ethtool eth0 > ethtool_eth0.txt[C[C[1P_eth0.txt[1P_eth0.txt[1P_eth0.txt[1P_eth0.txt[1P_eth0.txt[1P_eth0.txt[1P_eth0.txti_eth0.txtf_eth0.txtc_eth0.txto_eth0.txtn_eth0.txtf_eth0.txti_eth0.txtg_eth0.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[1@/[1@i[1@f[1@c[1@o[1@n[1@f[1@i[1@g[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]777;notify;Command completed;/sbin/ifconfig eth0 > ifconfig_eth0.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# more /proc/interrupts > interrupts.txt
+]777;notify;Command completed;more /proc/interrupts > interrupts.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# ls
+cpuinfo.txt       ifconfig_eth0.txt  lspci.txt    project1.script
+ethtool_eth0.txt  interrupts.txt     meminfo.txt  sda.txt
+]777;notify;Command completed;ls]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# lsmore /proc/interrupts > interrupts.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/sbin/ifconfig eth0 > ifconfig_eth0.txt[2Pethtool eth0 > ethtool_eth0.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Note: There is not file or directory /dev/hda in this CCentOS7" > hda.txt
+]777;notify;Command completed;echo "Note: There is not file or directory /dev/hda in this CentOS7" > hda.txt]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# ls [K[Kl
+total 40
+-rw-r--r--. 1 root root  2499 Jan 24 12:57 cpuinfo.txt
+-rw-r--r--. 1 root root   783 Jan 24 13:00 ethtool_eth0.txt
+-rw-r--r--. 1 root root    62 Jan 24 13:01 hda.txt
+-rw-r--r--. 1 root root   481 Jan 24 13:00 ifconfig_eth0.txt
+-rw-r--r--. 1 root root  1924 Jan 24 13:00 interrupts.txt
+-rw-r--r--. 1 root root   784 Jan 24 12:57 lspci.txt
+-rw-r--r--. 1 root root  1282 Jan 24 12:57 meminfo.txt
+-rw-r--r--. 1 root root 12288 Jan 24 13:00 project1.script
+-rw-r--r--. 1 root root     0 Jan 24 12:58 sda.txt
+]777;notify;Command completed;ll]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# vi simple.c
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"simple.c" [New File][2;1H[94m~                                                                                      [3;1H~                                                                                      [4;1H~                                                                                      [5;1H~                                                                                      [6;1H~                                                                                      [7;1H~                                                                                      [8;1H~                                                                                      [9;1H~                                                                                      [10;1H~                                                                                      [11;1H~                                                                                      [12;1H~                                                                                      [13;1H~                                                                                      [14;1H~                                                                                      [15;1H~                                                                                      [16;1H~                                                                                      [17;1H~                                                                                      [18;1H~                                                                                      [19;1H~                                                                                      [20;1H~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h[?25l[m[25;1H[97m[41mE348: No string under cursor[1;1H[?12l[?25h[?25l[m[25;1H[1m-- INSERT --[m[25;13H[K[1;1H[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25l[1;2H[K[1;2H[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[?25l#[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l"[?12l[?25h[?25ls"[?12l[?25h[?25lt"[?12l[?25h[?25ld"[?12l[?25h[?25li"[?12l[?25h[?25lo"[?12l[?25h[?25l."[?12l[?25h[?25lh"[?12l[?25h"[?25l[2;1H[K[2;1H[?12l[?25h[?25l#[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l"[?12l[?25h[?25lm"[?12l[?25h[?25la"[?12l[?25h[?25lt"[?12l[?25h[?25lh"[?12l[?25h[?25l."[?12l[?25h[?25lh"[?12l[?25h"de "math.h"[?25l[3;1H[K[3;1H[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l[94m~                                                                                      [3;1H[?12l[?25h[?25l~                                                                                      [2;18H[?12l[?25h[?25l[m[2;17H[K[2;17H[?12l[?25h[?25l>[?12l[?25h[?25lmath.h>[2;17H[K[2;10H[?12l[?25h[?25l<math.h>[2;11H[?12l[?25h[1;11H[?25lstdio.h"[1;18H[K[1;10H[?12l[?25h[?25l<stdio.h"[1;11H[?12l[?25hstdio.h"[?25l[1;18H[K[1;18H[?12l[?25h[?25l>[?12l[?25h[?25l[1;18H[K[1;18H[?12l[?25h[?25l"[?12l[?25h[?25lstdio.h"[1;18H[K[1;10H[?12l[?25h[?25l"stdio.h"[1;11H[?12l[?25h[?25l[2;24r[2;1H[L[1;25r[1;11H[K[2;1Hstdio.h"[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[1;1H#include "stdio.h"[24;1H[94m~                                                                                      [1;11H[?12l[?25h[2;11H[?25l[mmath.h>[2;17H[K[2;10H[?12l[?25h[?25l"math.h>[2;11H[?12l[?25hm[?25linclude "math.h>[2;17H[K[2;1H[?12l[?25h[?25l#include "math.h>#[?12l[?25h[8C"[?25l "math.h>[2;17H[K[2;8H[?12l[?25h[?25l "math.h>[2;16H[K[2;7H[?12l[?25h[?25l "math.h>[2;15H[K[2;6H[?12l[?25h[?25l "math.h>[2;14H[K[2;5H[?12l[?25h[?25l "math.h>[2;13H[K[2;4H[?12l[?25h[?25l "math.h>[2;12H[K[2;3H[?12l[?25h[?25l "math.h>[2;11H[K[2;2H[?12l[?25h[?25li "math.h>#i[?12l[?25h[?25ln "math.h>#in[?12l[?25h[?25lc "math.h>#inc[?12l[?25h[?25ll "math.h>#incl[?12l[?25h[?25lu "math.h>[2;7H[?12l[?25h[?25ld "math.h>[2;8H[?12l[?25h[?25le "math.h>[2;9H[?12l[?25h "math.h>[?25l[2;17H[K[2;17H[?12l[?25h[?25l"[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[4;4H[K[4;4H[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25l{[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l[7;1H[K[7;1H[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25l}[?12l[?25h[7;1H[6;1H[5;1H[?25l[4;24r[24;1H
+[1;25r[4;1Hint main(){[24;1H[94m~                                                                                      [4;12H[?12l[?25h[?25l[5;24r[m[5;1H[L[1;25r[5;1H[?12l[?25h[?25l[8C[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25l[[?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l][?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l"[?12l[?25h[?25l1"[?12l[?25h[?25l,"[?12l[?25h[?25l2"[?12l[?25h[?25l,"[?12l[?25h[?25l3"[?12l[?25h[?25l,"[?12l[?25h[?25l4"[?12l[?25h[?25l,"[?12l[?25h[?25l5"[?12l[?25h[?25l,"[?12l[?25h[?25l6"[?12l[?25h[?25l,"[?12l[?25h[?25l7"[?12l[?25h[?25l,"[?12l[?25h[?25l8"[?12l[?25h[?25l,"[?12l[?25h[?25l9"[?12l[?25h[?25l,"[?12l[?25h[?25l1"[?12l[?25h[?25l0"[?12l[?25h11,2,33,4,5,6,7,8,9,[5;23H"1[?25l,2,3,4,5,6,7,8,9,10"[5;43H[K[5;23H[?12l[?25h[?25l5,2,3,4,5,6,7,8,9,10"[5;24H[?12l[?25h[?25l.,2,3,4,5,6,7,8,9,10"[5;25H[?12l[?25h[?25l8,2,3,4,5,6,7,8,9,10"[5;26H[?12l[?25h[?25l2,2,3,4,5,6,7,8,9,10"[5;27H[?12l[?25h,2[?25l,3,4,5,6,7,8,9,10"[5;46H[K[5;28H[?12l[?25h[?25l6,3,4,5,6,7,8,9,10"[5;29H[?12l[?25h[?25l.,3,4,5,6,7,8,9,10"[5;30H[?12l[?25h[?25l8,3,4,5,6,7,8,9,10"[5;31H[?12l[?25h[?25l,3,4,5,6,7,8,9,10"[5;48H[K[5;30H[?12l[?25h[?25l5,3,4,5,6,7,8,9,10"[5;31H[?12l[?25h[?25l5,3,4,5,6,7,8,9,10"[5;32H[?12l[?25h,[?25l 6.55,3,4,5,6,7,8,9,10"[5;29H[?12l[?25h6.55,[?25l 3,4,5,6,7,8,9,10"[5;35H[?12l[?25h3,[?25l.,4,5,6,7,8,9,10"[5;37H[?12l[?25h[?25l5,4,5,6,7,8,9,10"[5;38H[?12l[?25h[?25l5,4,5,6,7,8,9,10"[5;39H[?12l[?25h[?25l,4,5,6,7,8,9,10"[5;54H[K[5;38H[?12l[?25h[?25l,4,5,6,7,8,9,10"[5;53H[K[5;37H[?12l[?25h[?25l6,4,5,6,7,8,9,10"[5;38H[?12l[?25h[?25l5,4,5,6,7,8,9,10"[5;39H[?12l[?25h[?25l ,4,5,6,7,8,9,10"[5;40H[?12l[?25h,,[?25l,4,5,6,7,8,9,10"[5;55H[K[5;39H[?12l[?25h,[?25l 4,5,6,7,8,9,10"[5;41H[?12l[?25h4[?25l.,5,6,7,8,9,10"[5;43H[?12l[?25h[?25l8,5,6,7,8,9,10"[5;44H[?12l[?25h[?25l9,5,6,7,8,9,10"[5;45H[?12l[?25h,[?25l 5,6,7,8,9,10"[5;47H[?12l[?25h5[?25l.,6,7,8,9,10"[5;49H[?12l[?25h[?25l7,6,7,8,9,10"[5;50H[?12l[?25h[?25l8,6,7,8,9,10"[5;51H[?12l[?25h,[?25l 6,7,8,9,10"[5;53H[?12l[?25h6[?25l.,7,8,9,10"[5;55H[?12l[?25h[?25l9,7,8,9,10"[5;56H[?12l[?25h[?25l8,7,8,9,10"[5;57H[?12l[?25h[?25l ,7,8,9,10"[5;58H[?12l[?25h,[?25l,7,8,9,10"[5;67H[K[5;57H[?12l[?25h,[?25l 7,8,9,10"[5;59H[?12l[?25h7[?25l.,8,9,10"[5;61H[?12l[?25h[?25l5,8,9,10"[5;62H[?12l[?25h[?25l5,8,9,10"[5;63H[?12l[?25h,[?25l 8,9,10"[5;65H[?12l[?25h8[?25l.,9,10"[?12l[?25h[?25l5,9,10"[?12l[?25h[?25l8,9,10"[?12l[?25h[?25l0,9,10"[?12l[?25h[?25l,9,10"[5;75H[K[5;69H[?12l[?25h[?25l ,9,10"[?12l[?25h[?25l,9,10"[5;75H[K[5;69H[?12l[?25h[?25l, 9,10"[?12l[?25h9[?25l.,10"[?12l[?25h[?25l9,10"[?12l[?25h[?25l9,10"[?12l[?25h[?25l ,10"[?12l[?25h[?25l,10"[5;79H[K[5;75H[?12l[?25h,[?25l 10"[?12l[?25h10[?25l."[?12l[?25h[?25l1"[?12l[?25h[?25l6"[?12l[?25h"[?25l[6;24r[6;1H[L[1;25r[6;1H[?12l[?25h[?25l[8C[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25l=[?12l[?25h[?25l0[?12l[?25h[?25l[6;14H[K[6;14H[?12l[?25h[?25l[6;13H[K[6;13H[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25l;[?12l[?25h[?25l[7;24r[7;1H[L[1;25r[7;1H[?12l[?25h[?25l[8;24r[8;1H[L[1;25r[8;1H[?12l[?25h[?25l[8C[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[7;1H[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l[7;9H[K[7;9H[?12l[?25h[?25l[?12l[?25h[?25l;[?12l[?25h[8;6H[?25l([?12l[?25h[?25li[?12l[?25h[?25l=[?12l[?25h[?25l0[?12l[?25h[?25l[8;9H[K[8;9H[?12l[?25h[?25l[8;8H[K[8;8H[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l0[?12l[?25h[?25l[8;10H[K[8;10H[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[8;15H[K[8;15H[?12l[?25h[?25l [?12l[?25h[?25l,[?12l[?25h[?25l[8;16H[K[8;16H[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l)[?12l[?25h[?25l{[?12l[?25h[?25l[9;24r[9;1H[L[1;25r[9;1H[?12l[?25h[8;1H[?25l[9;24r[9;1H[L[1;25r[8;3H[K[9;3Hfor(i = 0; i < 10; i++){[?12l[?25h
+
+[10;1H[?25l[8C[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[9;2H[8;1H[7;2H[6;2H[5;2H[?25l  double array[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"  [?12l[?25h[?25l  double array[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"   [?12l[?25h
+  d[?25l double sum = 0, ave;   [?12l[?25h[?25l double sum = 0, ave;    [?12l[?25h
+  in[?25l int i;   [?12l[?25h[?25l int i;    [?12l[?25h
+
+  fo[?25l for(i = 0; i < 10; i++){   [?12l[?25h[?25l for(i = 0; i < 10; i++){    [?12l[?25h
+    [?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lsu[?12l[?25h[?25lm[?12l[?25h[?25l+[?12l[?25h[?25l=[?12l[?25h[?25ls[?12l[?25h[?25lq[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25la)[?12l[?25h[9;20H[8;1H[7;11H[6;20H[5;20H[?25l[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;84H[K[5;16H[?12l[?25h[?25l[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;83H[K[5;15H[?12l[?25h[?25l[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;82H[K[5;14H[?12l[?25h[?25l[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;81H[K[5;13H[?12l[?25h[?25l[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;80H[K[5;12H[?12l[?25h[?25ll[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;13H[?12l[?25h[?25ls[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;14H[?12l[?25h[?25lt[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;15H[?12l[?25h[?25l[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;82H[K[5;14H[?12l[?25h[?25l[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;81H[K[5;13H[?12l[?25h[?25li[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;14H[?12l[?25h[?25ls[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;15H[?12l[?25h[?25lt[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[5;16H[?12l[?25h[6;16H[7;11H
+[9;16H[10;16H
+[10;16Hrt(a[?25l)[10;20H[K[10;19H[?12l[?25h[?25ll)[?12l[?25h[?25li)[?12l[?25h[?25ls)[?12l[?25h[?25lt)[?12l[?25h[?25l[)[?12l[?25h[?25li)[?12l[?25h[?25l[)[?12l[?25h[?25l)[10;26H[K[10;25H[?12l[?25h[?25l])[?12l[?25h)[?25l;[?12l[?25h[?25l[11;24r[11;1H[L[1;25r[11;1H[?12l[?25h[?25l[8C[?12l[?25h[?25l}[?12l[?25h[?25l}[11;9H[K[11;1H[?12l[?25h[?25l[10;24r[24;1H
+[1;25r[10;1H [7Csum+=sqrt(list[i]);}[24;1H[94m~                                                                                      [10;28H[?12l[?25h[?25l[11;24r[m[11;1H[L[1;25r[10;28H[K[11;1H}[?12l[?25h[?25l }[?12l[?25h[?25l }[?12l[?25h[?25l }[?12l[?25h[?25l }[?12l[?25h
+
+[?25l[12;24r[24;1H
+[1;25r[24;1H[94m~                                                                                      [12;1H[?12l[?25h[?25l[13;24r[m[13;1H[L[1;25r[13;1H[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25l[13;2H[K[13;2H[?12l[?25h[?25l[13;1H[K[13;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l;[?12l[?25h[12;1H[?25l[13;24r[13;1H[L[1;25r[13;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[14;24r[14;1H[L[1;25r[14;1H[?12l[?25h[13;1H    [?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[12;1H[11;6H[10;10H[9;10H[8;1H[7;10H
+[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l/[?12l[?25h[?25l8[?12l[?25h[?25l[8;6H[K[8;6H[?12l[?25h[?25l*[?12l[?25h[?25l[9;24r[9;1H[L[1;25r[8;5H[K[9;1H/*[?12l[?25h[?25l /*[?12l[?25h[?25l /*[?12l[?25h[?25l /*[?12l[?25h[?25l /*[?12l[?25h[8;5H
+    /*[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lc[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[9;21H[K[9;21H[?12l[?25h[?25l[9;20H[K[9;20H[?12l[?25h[?25l[9;19H[K[9;19H[?12l[?25h[?25l[?12l[?25h[?25l[9;17H[K[9;17H[?12l[?25h[?25l[9;16H[K[9;16H[?12l[?25h[?25l[9;15H[K[9;15H[?12l[?25h[?25l[?12l[?25h[?25l[9;13H[K[9;13H[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l*[?12l[?25h[?25l/[?12l[?25h[10;29H[11;28H[12;6H
+[14;10H[?25lf[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h)[?25l;[?12l[?25h[?25l");[?12l[?25h[?25l");[?12l[?25h[?25l%");[?12l[?25h[?25l.");[?12l[?25h[?25l2");[?12l[?25h[?25lf");[?12l[?25h"[?25l,);[?12l[?25h[?25la);[?12l[?25h[?25lv);[?12l[?25h[?25le);[?12l[?25h[13;1H[?25l[8C[?12l[?25h[?25l[?12l[?25h[?25l[14;24r[14;1H[L[1;25r[14;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25l/[?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l;[?12l[?25h[?25l[15;24r[15;1H[L[1;25r[15;1H[?12l[?25h
+
+
+
+}[25;1H[K[19;1H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25hwq[?25l"simple.c" [New] 19L, 333C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi simple.c]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# gcc -v
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+]777;notify;Command completed;gcc -v]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# gcc -g -lm -simple simple.c [C[C[C[1@o[1@ 
+[01m[Ksimple.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksimple.c:6:5:[m[K [01;31m[Kerror: [m[Kinvalid initializer
+     double sum = 0, ave;
+[01;32m[K     ^[m[K
+[01m[Ksimple.c:6:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+[01m[Ksimple.c:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksum[m[K’ undeclared (first use in this function)
+         sum+=sqrt(list[i]);
+[01;32m[K         ^[m[K
+[01m[Ksimple.c:11:9:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Ksimple.c:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kave[m[K’ undeclared (first use in this function)
+     ave = sum/10;
+[01;32m[K     ^[m[K
+]777;notify;Command completed;gcc -g -lm -o simple simple.c ]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# vi simple.c 
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"simple.c" 19L, 333C[1;1H#include "stdio.h"
+#include "math.h"
+
+int main(){
+    double list[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"
+    double sum = 0, ave;
+    int i;[9;5H/*calcute sum of 10 numbers*/
+    for(i = 0; i < 10; i++){[11;9Hsum+=sqrt(list[i]);
+    }[14;5Have = sum/10;[16;5Hprintf("%.2f",ave);[18;5Hreturn 0;
+}
+[94m~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h
+
+
+
+
+[m [?25l[25;1H[1m-- INSERT --[m[25;13H[K[6;1H[?12l[?25h[5;1H    double list[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[?25l;[?12l[?25h[25;1H[K[5;84H[?25l[?12l[?25h
+    [?25l[25;1H:[?12l[?25hwq[?25l"simple.c" 19L, 334C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi simple.c ]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# vi simple.c [18@gcc -g -lm -o simple[C[C[C[C[C[C[C[C[C[C
+[01m[Ksimple.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksimple.c:5:5:[m[K [01;31m[Kerror: [m[Kinvalid initializer
+     double list[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16";
+[01;32m[K     ^[m[K
+]777;notify;Command completed;gcc -g -lm -o simple simple.c ]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# gcc -g -lm -o simple simple.c [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pvi[C[C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"simple.c" 19L, 334C[1;1H#include "stdio.h"
+#include "math.h"
+
+int main(){
+    double list[10] = "5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16";
+    double sum = 0, ave;
+    int i;[9;5H/*calcute sum of 10 numbers*/
+    for(i = 0; i < 10; i++){[11;9Hsum+=sqrt(list[i]);
+    }[14;5Have = sum/10;[16;5Hprintf("%.2f",ave);[18;5Hreturn 0;
+}
+[94m~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H
+[5;1H[m    double list[10] = "[?25l[25;1H[1m-- INSERT --[m[25;13H[K[5;24H[?12l[?25h[?25l5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16";[5;84H[K[5;23H[?12l[?25h[?25l{5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16";[5;24H[?12l[?25h[6;24H[5;1H    double list[10] = {5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16"[?25l;[5;84H[K[5;83H[?12l[?25h[?25l};[?12l[?25h[25;1H[K[5;83H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25hwq[?25l"simple.c" 19L, 334C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi simple.c ]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# vi simple.c [18@gcc -g -lm -o simple[C[C[C[C[C[C[C[C[C[C
+]777;notify;Command completed;gcc -g -lm -o simple simple.c ]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# gcc -g -lm -o simple simple.c [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pvi[C[C[C[C[C[C[C[C[C[C[18@gcc -g -lm -o simple[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kman ldd
+[?1049h[?1h=LDD(1)                        Linux Programmer's Manual                       LDD(1)[m
+[m
+[1mNAME[0m[m
+       ldd - print shared library dependencies[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mldd[0m [OPTION]... FILE...[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mldd[0m  prints  the  shared libraries required by each program or shared library[m
+       specified on the command line.[m
+[m
+   [1mSecurity[0m[m
+       In the usual case, [1mldd[0m invokes the standard  dynamic  linker  (see  [1mld.so[0m(8))[m
+       with  the [1mLD_TRACE_LOADED_OBJECTS[0m environment variable set to 1, which causes[m
+       the linker to display the library dependencies.  Be aware, however,  that  in[m
+       some circumstances, some versions of [1mldd[0m may attempt to obtain the dependency[m
+       information by directly executing the program.  Thus, you should [4mnever[24m employ[m
+       [1mldd[0m  on  an  untrusted  executable, since this may result in the execution of[m
+       arbitrary code.  A safer alternative when dealing with untrusted  executables[m
+       is:[m
+[m
+           $ objdump -p /path/to/program | grep NEEDED[m
+[m
+[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K/[K[1;1HLDD(1)                        Linux Programmer's Manual                       LDD(1)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       ldd - print shared library dependencies[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H       [1mldd[0m [OPTION]... FILE...[m
+[8;1H[m
+[9;1H[1mDESCRIPTION[0m[m
+[10;1H       [1mldd[0m  prints  the  shared libraries required by each program or shared library[m
+[11;1H       specified on the command line.[m
+[12;1H[m
+[13;1H   [1mSecurity[0m[m
+[14;1H       In the usual case, [1mldd[0m invokes the standard  dynamic  linker  (see  [1mld.so[0m(8))[m
+[15;1H       with  the [1mLD_TRACE_LOADED_OBJECTS[0m environment variable set to 1, which causes[m
+[16;1H       the linker to display the library dependencies.  Be aware, however,  that  in[m
+[17;1H       some circumstances, some versions of [1mldd[0m may attempt to obtain the dependency[m
+[18;1H       information by directly executing the program.  Thus, you should [4mnever[24m employ[m
+[19;1H       [1mldd[0m  on  an  untrusted  executable, since this may result in the execution of[m
+[20;1H       arbitrary code.  A safer alternative when dealing with untrusted  executables[m
+[21;1H       is:[m
+[22;1H[m
+[23;1H           $ objdump -p /path/to/program | grep NEEDED[m
+[24;1H[m
+[25;1H[K[7mPattern not found  (press RETURN)[27m[25;1H[K[K[7m Manual page ldd(1) line 1/76 34% (press h for help or q to quit)[27m[K[K[1mOPTIONS[0m[m
+       [1m--version[0m[m
+              Print the version number of [1mldd[0m.[m
+[m
+       [1m-v[0m [1m--verbose[0m[m
+              Print  all  information,  including,  for  example,  symbol versioning[m
+              information.[m
+[m
+       [1m-u[0m [1m--unused[0m[m
+              Print unused direct dependencies.  (Since glibc 2.3.4.)[m
+[m
+       [1m-d[0m [1m--data-relocs[0m[m
+              Perform relocations and report any missing objects (ELF only).[m
+[m
+       [1m-r[0m [1m--function-relocs[0m[m
+              Perform relocations for both data objects and  functions,  and  report[m
+              any missing objects or functions (ELF only).[m
+[m
+       [1m--help[0m Usage information.[m
+[m
+[1mNOTES[0m[m
+       The standard version of [1mldd[0m comes with glibc2.  Libc5 came with an older ver‐[m
+       sion, still present on some systems.  The long options are not  supported  by[m
+       the libc5 version.  On the other hand, the glibc2 version does not support [1m-V[0m[m
+[7m Manual page ldd(1) line 27/76 65% (press h for help or q to quit)[27m[K[K       and only has the equivalent [1m--version[0m.[m
+[m
+       The libc5 version of this program will use the name of a library given on the[m
+       command  line  as-is  when  it  contains a '/'; otherwise it searches for the[m
+       library in the standard locations.  To run it on a shared library in the cur‐[m
+       rent directory, prefix the name with "./".[m
+[m
+[1mBUGS[0m[m
+       [1mldd[0m does not work on a.out shared libraries.[m
+[m
+       [1mldd[0m  does  not  work  with some extremely old a.out programs which were built[m
+       before [1mldd[0m support was added to the compiler releases.  If you use [1mldd[0m on one[m
+       of  these  programs,  the  program  will attempt to run with [4margc[24m = 0 and the[m
+       results will be unpredictable.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       [1mld.so[0m(8), [1mldconfig[0m(8)[m
+[m
+[1mCOLOPHON[0m[m
+       This page is part of release 3.53 of the Linux [4mman-pages[24m project.  A descrip‐[m
+       tion  of  the  project, and information about reporting bugs, can be found at[m
+       http://www.kernel.org/doc/man-pages/.[m
+[m
+                                     2012-07-16                               LDD(1)[m
+[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page ldd(1) line 51/76 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]777;notify;Command completed;man ldd]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# ldd simple
+	linux-vdso.so.1 =>  (0x00007ffeca15b000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007f9a99fa2000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007f9a99bd4000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f9a9a2a4000)
+]777;notify;Command completed;ldd simple]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# ldd simple[3Pman lddldd simple[K[K[K[K[K[K[K[K[K[Kvi .gdbinit
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H".gdbinit" [New File][2;1H[94m~                                                                                      [3;1H~                                                                                      [4;1H~                                                                                      [5;1H~                                                                                      [6;1H~                                                                                      [7;1H~                                                                                      [8;1H~                                                                                      [9;1H~                                                                                      [10;1H~                                                                                      [11;1H~                                                                                      [12;1H~                                                                                      [13;1H~                                                                                      [14;1H~                                                                                      [15;1H~                                                                                      [16;1H~                                                                                      [17;1H~                                                                                      [18;1H~                                                                                      [19;1H~                                                                                      [20;1H~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h[?25l[m[25;1H[1m-- INSERT --[m[25;13H[K[1;1H[?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l[1;6H[K[1;6H[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25l[7C[?12l[?25h[?25l[1;10H[?12l[?25h[?25l[1;9H[K[1;9H[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25lb[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lk[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25lb[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lk[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25l[3;7H[K[3;7H[?12l[?25h[?25ls[?12l[?25h[?25lq[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[25;1H[K[4;14H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25hwq[?25l".gdbinit" [New] 4L, 49C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi .gdbinit]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# gdb [K
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Breakpoint 1 at 0x4005a5: file simple.c, line 5.
+Breakpoint 2 at 0x4004a0
+.gdbinit:4: Error in sourced command file:
+The program has no registers now.
+(gdb) q
+]777;notify;Command completed;gdb]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# rm /home[K[K[K[K[K-r /home [K/chan/Desktop/project1\[K
+rm: descend into directory ‘/home/chan/Desktop/project1’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/.simple.c.swp’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/.gdbinit’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/simple.c’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/Project1_Yuxiang_Chen.script’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/cupinfo.txt’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/meminfo.txt’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/lspci.txt’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/sda.txt’? y
+rm: remove regular empty file ‘/home/chan/Desktop/project1/hda.txt’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/ifconfig_eth0.txt’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/interrupts.txt’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/ethtool_eth0.txt’? y
+rm: remove regular file ‘/home/chan/Desktop/project1/simple’? y
+rm: remove directory ‘/home/chan/Desktop/project1’? y
+]777;notify;Command completed;rm -r /home/chan/Desktop/project1]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# rm -r /home/chan/Desktop/project1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb[K
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Breakpoint 1 at 0x4005a5: file simple.c, line 5.
+Breakpoint 2 at 0x4004a0
+.gdbinit:4: Error in sourced command file:
+The program has no registers now.
+(gdb) q
+]777;notify;Command completed;gdb]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# ls /home/chan/des[K[K[KDesktop/
+[0m[38;5;34moutput[0m  output.c  [38;5;9mproject1.tgz[0m
+]777;notify;Command completed;ls /home/chan/Desktop/]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# ls /home/chan/Desktop/p[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgdb
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Breakpoint 1 at 0x4005a5: file simple.c, line 5.
+Breakpoint 2 at 0x4004a0
+.gdbinit:4: Error in sourced command file:
+The program has no registers now.
+(gdb) r
+Starting program: /home/chan/Documents/project1/simple 
+
+Breakpoint 1, main () at simple.c:5
+5	    double list[10] = {5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16};
+Missing separate debuginfos, use: debuginfo-install glibc-2.17-325.el7_9.x86_64
+(gdb) n
+6	    double sum = 0, ave;
+(gdb) s
+10	    for(i = 0; i < 10; i++){
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+2.62[Inferior 1 (process 4933) exited normally]
+(gdb) c[Kq
+]777;notify;Command completed;gdb]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# vi sp[K[K[K[K[Krm simple[K[K[K[K[K[K[K[K[Kvi simple.c
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"simple.c" 19L, 334C[1;1H#include "stdio.h"
+#include "math.h"
+
+int main(){
+    double list[10] = {5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16};
+    double sum = 0, ave;
+    int i;[9;5H/*calcute sum of 10 numbers*/
+    for(i = 0; i < 10; i++){[11;9Hsum+=sqrt(list[i]);
+    }[14;5Have = sum/10;[16;5Hprintf("%.2f",ave);[18;5Hreturn 0;
+}
+[94m~                                                                                      [21;1H~                                                                                      [22;1H~                                                                                      [23;1H~                                                                                      [24;1H~                                                                                      [1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[m [17;1H[16;2H   printf("ntf("[?25l[25;1H[1m-- INSERT --[m[25;13H[K[16;8H[?12l[?25hntf([?25lT"%.2f",ave);[16;13H[?12l[?25h[?25l"%.2f",ave);[16;24H[K[16;12H[?12l[?25h"[?25lT%.2f",ave);[16;14H[?12l[?25h[?25lh%.2f",ave);[16;15H[?12l[?25h[?25le%.2f",ave);[16;16H[?12l[?25h[?25l %.2f",ave);[16;17H[?12l[?25h[?25la%.2f",ave);[16;18H[?12l[?25h[?25lv%.2f",ave);[16;19H[?12l[?25h[?25le%.2f",ave);[16;20H[?12l[?25h[?25la%.2f",ave);[16;21H[?12l[?25h[?25lg%.2f",ave);[16;22H[?12l[?25h[?25le%.2f",ave);[16;23H[?12l[?25h[?25l%.2f",ave);[16;33H[K[16;22H[?12l[?25h[?25l%.2f",ave);[16;32H[K[16;21H[?12l[?25h[?25l%.2f",ave);[16;31H[K[16;20H[?12l[?25h[?25lr%.2f",ave);[16;21H[?12l[?25h[?25la%.2f",ave);[16;22H[?12l[?25h[?25lg%.2f",ave);[16;23H[?12l[?25h[?25le%.2f",ave);[16;24H[?12l[?25h[?25l %.2f",ave);[16;25H[?12l[?25h[?25lo%.2f",ave);[16;26H[?12l[?25h[?25lf%.2f",ave);[16;27H[?12l[?25h[?25l %.2f",ave);[16;28H[?12l[?25h[?25lt%.2f",ave);[16;29H[?12l[?25h[?25lh%.2f",ave);[16;30H[?12l[?25h[?25le%.2f",ave);[16;31H[?12l[?25h[?25l %.2f",ave);[16;32H[?12l[?25h[?25ls%.2f",ave);[16;33H[?12l[?25h[?25l%.2f",ave);[16;43H[K[16;32H[?12l[?25h[?25l%.2f",ave);[16;42H[K[16;31H[?12l[?25h[?25l%.2f",ave);[16;41H[K[16;30H[?12l[?25h[?25l%.2f",ave);[16;40H[K[16;29H[?12l[?25h[?25l%.2f",ave);[16;39H[K[16;28H[?12l[?25h[?25ls%.2f",ave);[16;29H[?12l[?25h[?25l%.2f",ave);[16;39H[K[16;28H[?12l[?25h[?25ls%.2f",ave);[16;29H[?12l[?25h[?25lq%.2f",ave);[16;30H[?12l[?25h[?25l%.2f",ave);[16;40H[K[16;29H[?12l[?25h[?25l%.2f",ave);[16;39H[K[16;28H[?12l[?25h[?25lt%.2f",ave);[16;29H[?12l[?25h[?25lh%.2f",ave);[16;30H[?12l[?25h[?25le%.2f",ave);[16;31H[?12l[?25h[?25li%.2f",ave);[16;32H[?12l[?25h[?25lr%.2f",ave);[16;33H[?12l[?25h[?25l %.2f",ave);[16;34H[?12l[?25h[?25ls%.2f",ave);[16;35H[?12l[?25h[?25lq%.2f",ave);[16;36H[?12l[?25h[?25lu%.2f",ave);[16;37H[?12l[?25h[?25la%.2f",ave);[16;38H[?12l[?25h[?25lr%.2f",ave);[16;39H[?12l[?25h[?25le%.2f",ave);[16;40H[?12l[?25h[?25l %.2f",ave);[16;41H[?12l[?25h[?25lr%.2f",ave);[16;42H[?12l[?25h[?25lo%.2f",ave);[16;43H[?12l[?25h[?25lt%.2f",ave);[16;44H[?12l[?25h[?25lt%.2f",ave);[16;45H[?12l[?25h[?25l%.2f",ave);[16;55H[K[16;44H[?12l[?25h[?25l%.2f",ave);[16;54H[K[16;43H[?12l[?25h[?25lo%.2f",ave);[16;44H[?12l[?25h[?25lt%.2f",ave);[16;45H[?12l[?25h[?25ls%.2f",ave);[16;46H[?12l[?25h[?25l %.2f",ave);[16;47H[?12l[?25h[?25li%.2f",ave);[16;48H[?12l[?25h[?25ls%.2f",ave);[16;49H[?12l[?25h[?25l %.2f",ave);[16;50H[?12l[?25h[?25l%.2f",ave);[16;60H[K[16;49H[?12l[?25h[?25l %.2f",ave);[16;50H[?12l[?25h%.2f[?25l\",ave);[16;55H[?12l[?25h[?25ln",ave);[16;56H[?12l[?25h[25;1H[K[16;55H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25hwq[?25l"simple.c" 19L, 373C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;vi simple.c]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# vi simple.cgdb[K[Kgdbrm -r /home/chan/Desktop/project1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb[Kvi .gdbinit[1Pldd simple[3Pman lddgcc -g -lm -o simple simple.c 
+]777;notify;Command completed;gcc -g -lm -o simple simple.c ]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# gdb
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Breakpoint 1 at 0x4005a5: file simple.c, line 5.
+Breakpoint 2 at 0x4004a0
+.gdbinit:4: Error in sourced command file:
+The program has no registers now.
+(gdb) r
+Starting program: /home/chan/Documents/project1/simple 
+
+Breakpoint 1, main () at simple.c:5
+5	    double list[10] = {5.82, 6.55, 3.65, 4.89, 5.78, 6.98, 7.55, 8.58, 9.99, 10.16};
+Missing separate debuginfos, use: debuginfo-install glibc-2.17-325.el7_9.x86_64
+(gdb) print
+The history is empty.
+(gdb) n
+6	    double sum = 0, ave;
+(gdb) print
+The history is empty.
+(gdb) s
+10	    for(i = 0; i < 10; i++){
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) print
+The history is empty.
+(gdb) print ave
+No symbol "ave" in current context.
+(gdb) print sum
+No symbol "sum" in current context.
+(gdb) s[Kdisplay
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) cdisplay
+(gdb) print
+The history is empty.
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) 
+Continuing.
+
+Breakpoint 2, 0x00007ffff7aff690 in sqrt () from /lib64/libm.so.6
+(gdb) c
+Continuing.
+The average of their square roots is 2.62
+[Inferior 1 (process 5047) exited normally]
+(gdb) c
+The program is not being run.
+(gdb) q
+]777;notify;Command completed;gdb]0;chan@localhost:/home/chan/Documents/project1]7;file://localhost.localdomain/home/chan/Documents/project1[root@localhost project1]# script[K[K[K[K[K[Kexit
+exit
+
+Script done on Mon 24 Jan 2022 01:24:10 PM CST

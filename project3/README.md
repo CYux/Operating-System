@@ -19,6 +19,7 @@ print("%-2d",number);
 
 result:
 1 Task
+
 a space in right.
 
 ```
@@ -27,6 +28,7 @@ print("%-2dTask",number);
 ```
 result:
 123Task
+
 No space but it printed all number.
 
 print("%2.2f",number);

@@ -1,0 +1,7 @@
+Hello
+this is trying to 
+count how many
+line and times
+
+Hello world!
+end.
